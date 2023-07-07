@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Page</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="{% get_static_prefix %}css/style.css">
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="{% url "home" %}" class="logo">Ve<span>nom</span></a>
+            <!-- Login Btn -->
+            <a href="#" class="login">Login</a>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <section class="post-header">
+        <div class="header-content post-container">
+            <!-- Back to home -->
+            <a href="{% url "home" %}" class="back-home">Back to home</a>
+            <!-- Title -->
+            <h1 class="header-title">Hove To Create Best UX Design With Adobe</h1>
+            <!-- Post Image -->
+            <img src="{% get_static_prefix %}img/post-1.jpg" alt="" class="header-img">
+        </div>
+    </section>
+
+
+    <!-- Post -->
+    <section class="post-content post-container">
+        <h2 class="sub-heading">Create Best UX Design</h2>
+        <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam aspernatur, atque blanditiis consequuntur cupiditate et excepturi explicabo facilis fugiat harum in incidunt iusto minima modi molestias nihil nulla odit possimus sed, tempora tenetur totam vel, voluptatibus. Deleniti fuga fugiat, fugit mollitia optio repellendus.</p>
+        <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam aspernatur, atque blanditiis consequuntur cupiditate et excepturi explicabo facilis fugiat harum in incidunt iusto minima modi molestias nihil nulla odit possimus sed, tempora tenetur totam vel, voluptatibus. Deleniti fuga fugiat, fugit mollitia optio repellendus.</p>
+        <h2 class="sub-heading">Create Best UX Design</h2>
+        <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam aspernatur, atque blanditiis consequuntur cupiditate et excepturi explicabo facilis fugiat harum in incidunt iusto minima modi molestias nihil nulla odit possimus sed, tempora tenetur totam vel, voluptatibus. Deleniti fuga fugiat, fugit mollitia optio repellendus.</p>
+        <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam aspernatur, atque blanditiis consequuntur cupiditate et excepturi explicabo facilis fugiat harum in incidunt iusto minima modi molestias nihil nulla odit possimus sed, tempora tenetur totam vel, voluptatibus. Deleniti fuga fugiat, fugit mollitia optio repellendus.</p>
+        <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam aspernatur, atque blanditiis consequuntur cupiditate et excepturi explicabo facilis fugiat harum in incidunt iusto minima modi molestias nihil nulla odit possimus sed, tempora tenetur totam vel, voluptatibus. Deleniti fuga fugiat, fugit mollitia optio repellendus.</p>
+    </section>
+
+    <!-- Share -->
+    <div class="share post-container">
+        <span class="share-title">Share this article</span>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer container">
+        <p>&#169; Carpoolvenom All Right Reserved</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+    </div>
+
+
+<!-- Link to JS -->
+<script src="{% get_static_prefix %}js/script.js"></script>
+</body>
+</html>
